@@ -1,0 +1,163 @@
+
+body{
+    background: #0E0E0E;
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.parastart{
+    color: #DCDCDC;
+    border-left: groove;
+    border-color: #5d0e13;
+    border-width: .7rem;
+    padding: 5px;
+    
+}
+
+
+.padding{
+    margin-left: 1em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+header{
+    font-family: 'Dancing Script', cursive;
+    color: #9E3405;
+}
+
+h1{
+    color:#9E3405;
+    font-family: 'Nunito', sans-serif; 
+    
+}
+h4{
+    font-family: 'Roboto Slab', serif;
+}
+
+.frontimg{
+    width: 100%;
+}
+
+nav{
+    background-color: #0E0E0E;
+}
+
+#mainnavbar .navbar-brand{
+    color: white;
+}
+
+#mainnavbar{
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+#navpart {
+    color: white;
+}
+
+#navpart:hover{
+    color: #EA1C2C;
+    transition: .2s;
+}
+
+#mar{
+    margin-right: 25%;
+}
+.frame {
+    border: 16rem;
+    background-color:  #9E3405;
+    padding: 10px 25px;
+}
+ span{
+        color: #9E3405;
+}
+#lb{
+    font-weight: 80;
+    color: #73EC6B;
+}
+#green{
+  
+    color: #F9C650;
+}
+
+#green span{
+    color: #FF83E7;
+}
+hr{
+    height: 1px;
+    background-color: #EA1C2C ;
+    border: none;
+    width: 50%;
+}
+marquee {
+    height: 14rem;
+    border-radius: 1em;
+    border: 1px solid #5d0e13;
+    /* box-shadow: 0.25em 0.25em 0.5em #000; */
+    overflow: hidden;
+    background-color: #66c2f1;
+    color: #9E3405;
+    }
+#marex{
+    color: #000000;
+}
+
+#firsttxt{
+   
+   padding: 3rem;
+   color: #DCDCDC;
+   font-size: 1.5rem;
+}
+
+.jumbotron{
+    background-color: #0E0E0E;
+}
+
+blockquote {
+    font-size: 2px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: right;
+    text-decoration: none;
+     color: white;
+  }
+  
+  /* Add a hover effect if you want */
+  /* .fa-instagram:hover {
+    opacity: .8;
+    color:#6A1EA9;
+  }
+  .fa-twitter:hover {
+    opacity: .8;
+    color:#55ACEE;
+  } */
+
+  .fa:hover{
+      opacity: .8;
+      color: #444444;
+      transition: .2s;
+      text-decoration: none;
+  }
+
+  footer{
+      color: whitesmoke;
+  }
+
+  #caro{
+      color: #0E0E0E;
+  }
+
+  #grad {
+    background-image: linear-gradient(to bottom right, #016117, #D9FFE2);
+  }
+  
+
+ 
