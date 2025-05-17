@@ -35,7 +35,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-8 w-full px-2 sm:px-6">
+    <div className="flex flex-col gap-8 w-full sm:px-6">
       <h2 className="text-4xl font-bold">Projects</h2>
 
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 w-full max-w-screen-lg">

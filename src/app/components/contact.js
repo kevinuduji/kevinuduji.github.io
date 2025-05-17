@@ -5,7 +5,7 @@ export default function Contact() {
         method="POST"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        className="flex flex-col gap-8 max-w-screen justify-start px-2 sm:px-6"
+        className="flex flex-col gap-8 max-w-screen justify-start sm:px-6"
       >
         <h2 className="text-4xl font-bold">Contact</h2>
         {/* Hidden input for Netlify */}

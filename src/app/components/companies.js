@@ -34,7 +34,7 @@ const experiences = [
 
 export default function Companies() {
   return (
-    <div className="flex flex-col gap-8 w-full px-2 sm:px-6">
+    <div className="flex flex-col gap-8 w-full sm:px-6">
       <h2 className="text-4xl font-bold">Experience</h2>
 
       <div className="flex flex-col gap-6 w-full max-w-screen-lg">
