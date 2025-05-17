@@ -24,7 +24,7 @@ const experiences = [
     logo: "/jumpfinance_logo.jpeg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Snap Inc.",
     position: "Software Engineer Program",
     duration: "Mar 2024 – May 2024",
