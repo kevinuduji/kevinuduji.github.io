@@ -1,6 +1,7 @@
 // Projects.js
 import React from "react";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
@@ -66,6 +67,21 @@ export default function Projects() {
             </div>
           </a>
         ))}
+      </div>
+
+      {/* See more button for portfolio section */}
+      <div className="flex justify-center mt-4">
+        <a
+          href="https://github.com/kevinuduji"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border-solid border-2 border-gray-50/20 backdrop-blur-lg bg-gray-950/30 rounded-2xl px-6 py-2 hover:bg-gray-800 text-base text-center font-medium transition-colors duration-200"
+        >
+          See More <FaGithub
+                        size={20}
+                        className="dark:text-[#ededed] justify-center items-center inline-flex ml-2 mb-1 transition-colors duration-200"
+                      />
+        </a>
       </div>
     </div>
   );

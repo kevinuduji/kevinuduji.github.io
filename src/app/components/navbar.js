@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Logo from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
