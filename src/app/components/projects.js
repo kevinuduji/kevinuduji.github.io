@@ -79,7 +79,7 @@ export default function Projects() {
         >
           See More <FaGithub
                         size={20}
-                        className="dark:text-[#ededed] justify-center items-center inline-flex ml-2 mb-1 transition-colors duration-200"
+                        className=" dark:text-[#ededed] justify-center items-center inline-flex ml-2 mb-1 transition-colors duration-200"
                       />
         </a>
       </div>
