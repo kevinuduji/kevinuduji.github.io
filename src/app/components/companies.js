@@ -6,7 +6,7 @@ const experiences = [
     id: 1,
     name: "Duolingo",
     position: "Software Engineer Intern",
-    duration: "May 2024 – Present",
+    duration: "Jun 2025 – Present",
     logo: "/duolingo_logo.png",
   },
   {
@@ -35,7 +35,7 @@ const experiences = [
 export default function Companies() {
   return (
     <div className="flex flex-col gap-8 w-full px-2 sm:px-6">
-      <h2 className="text-4xl font-bold">Work Experience</h2>
+      <h2 className="text-4xl font-bold">Experience</h2>
 
       <div className="flex flex-col gap-6 w-full max-w-screen-lg">
         {experiences.map((exp) => (

@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,14 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Kevin Uduji",
+  title: "Kevin's Portfolio",
   description: "Kevin Uduji's Career Portfolio",
+  icons: {
+    icon: "/kevin.jpg",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark scroll-smooth">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <Head>
+        <link rel="icon" href="/kevin.jpg" />
+      </Head>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
       </body>
     </html>

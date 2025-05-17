@@ -45,7 +45,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/kevinuduji/"
+            href="https://drive.google.com/file/d/1ttjzwPTjeQd838C0rnfwTHRVtrW5Gr2N/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="border-solid border-2 border-gray-50/20 backdrop-blur-lg bg-gray-950/30 rounded-full px-6 py-2 hover:bg-gray-800 text-base text-center w-full sm:w-auto transition-colors duration-200"
