@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Logo from "next/image";
+import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
@@ -26,7 +26,13 @@ export default function Navbar() {
       <header className="flex justify-between items-center px-6 py-4">
         {/* Left - Logo */}
         <div className="flex-shrink-0">
-          <img src="/logowhite.png" alt="Logo" className="h-10 w-auto" />
+          <Image
+            src="/logowhite.png"
+            alt="Logo"
+            width={40}
+            height={40}
+            className="h-10 w-auto"
+          />
         </div>
 
         {/* Center - Nav Links (XL: vertical left-side) */}

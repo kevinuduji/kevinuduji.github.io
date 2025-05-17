@@ -1,5 +1,6 @@
 // Projects.js
 import React from "react";
+import Image from "next/image";
 
 const projects = [
   {
@@ -40,20 +41,20 @@ export default function Projects() {
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 w-full max-w-screen-lg">
         {projects.map((p) => (
           <a
+            key={p.id}
             href={p.link || "#"}
             target="_blank"
             rel="noopener noreferrer"
             className="h-full w-full flex items-center justify-center"
           >
-            <div
-              key={p.id}
-              className="aspect-square border-2 border-gray-50/20 bg-transparent rounded-2xl overflow-hidden flex flex-col"
-            >
+            <div className="aspect-square border-2 border-gray-50/20 bg-transparent rounded-2xl overflow-hidden flex flex-col">
               {/* Image fills top 3/4 */}
               <div className="h-3/4 w-full overflow-hidden">
-                <img
+                <Image
                   src={p.image}
                   alt={p.title}
+                  width={400}
+                  height={400}
                   className="w-full h-full object-cover rounded-t-2xl transition-transform duration-300 transform hover:scale-105"
                 />
               </div>
