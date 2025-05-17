@@ -17,7 +17,7 @@ export const metadata = {
   description: "Kevin Uduji's Career Portfolio",
   icons: {
     icon: "/kevin.jpg",
-    apple: "/kevin.jpg", // Apple touch icon
+    apple: "/kevin.jpg",
   },
   openGraph: {
     type: "website",
@@ -26,21 +26,19 @@ export const metadata = {
     description: "Kevin Uduji's Career Portfolio",
     images: [
       {
-        url: "https://og-image.vercel.app/api/screenshot?url=https://kevinuduji-github-io.vercel.app/",
+        url: "/metadata_icon.png",
         width: 1200,
         height: 630,
-        alt: "Kevin Uduji's Portfolio Live Preview",
+        alt: "Kevin Uduji's Portfolio Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@yourtwitter", // Optional: your Twitter handle
+    site: "@yourtwitter",
     title: "Kevin's Portfolio",
     description: "Kevin Uduji's Career Portfolio",
-    images: [
-      "https://og-image.vercel.app/api/screenshot?url=https://kevinuduji-github-io.vercel.app/",
-    ],
+    images: ["/metadata_icon.png"],
   },
 };
 
@@ -60,20 +58,14 @@ export default function RootLayout({ children }) {
           property="og:description"
           content="Kevin Uduji's Career Portfolio"
         />
-        <meta
-          property="og:image"
-          content="https://og-image.vercel.app/api/screenshot?url=https://kevinuduji-github-io.vercel.app/"
-        />
+        <meta property="og:image" content="/metadata_icon.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kevin's Portfolio" />
         <meta
           name="twitter:description"
           content="Kevin Uduji's Career Portfolio"
         />
-        <meta
-          name="twitter:image"
-          content="https://og-image.vercel.app/api/screenshot?url=https://kevinuduji-github-io.vercel.app/"
-        />
+        <meta name="twitter:image" content="/metadata_icon.png" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
